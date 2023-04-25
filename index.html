@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Proyecto Frontend</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/icon.png" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <div
+    class="p-5 text-center bg-image"
+    style="
+      background-image: url('https://imagenes.elpais.com/resizer/KP9ZOgAwpmlQ9RXcKNO7D-XBWV4=/1960x1103/cloudfront-eu-central-1.images.arcpublishing.com/prisa/XMXCOYP5RBGRXGE2YGR6XR3C4Y.png');
+      height: 400px;
+      margin-top: 58px;
+    "
+  >
+    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-white">
+          <h1 class="mb-3">Bienvenido a BagShop.</h1>
+          <h4 class="mb-3">Aquí podrás encontrar todo tipo de maletas para tus viajes deseados.</h4>
+          <a class="btn btn-outline-light btn-lg" href="catalogo.html" role="button"
+          >Mas información</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Background image -->
+  </head>
+
+  <body>
+    <!-- Start your project here-->
+    
+        <!-- Navbar -->
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <!-- Container wrapper -->
+            <div class="container-fluid">
+              <!-- Toggle button -->
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <i class="fas fa-bars"></i>
+              </button>
+
+              <!-- Collapsible wrapper -->
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Navbar brand -->
+                <a class="navbar-brand mt-2 mt-lg-0" href="#">
+                  <img
+                    src="/img/icon.png"
+                    height="40"
+                    alt="MDB Logo"
+                    loading="lazy"
+                  />
+                </a>
+                <!-- Left links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="catalogo.html">Información</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contactenos</a>
+                  </li>
+                </ul>
+                <!-- Left links -->
+              </div>
+              <!-- Collapsible wrapper -->
+
+              <!-- Right elements -->
+              <div class="d-flex align-items-center">
+                <!-- Icon -->
+                <a class="text-reset me-3" href="#">
+                  <i class="fas fa-shopping-cart"></i>
+                </a>
+
+                <!-- Notifications -->
+                <div class="dropdown">
+                  <a
+                    class="text-reset me-3 dropdown-toggle hidden-arrow"
+                    href="#"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-mdb-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <i class="fas fa-bell"></i>
+                    <span class="badge rounded-pill badge-notification bg-danger">1</span>
+                  </a>
+                  <ul
+                    class="dropdown-menu dropdown-menu-end"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="#">Noticias</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Notificaciones</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Mensajes</a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- Avatar -->
+                <div class="dropdown">
+                  <a
+                    class="dropdown-toggle d-flex align-items-center hidden-arrow"
+                    href="#"
+                    id="navbarDropdownMenuAvatar"
+                    role="button"
+                    data-mdb-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <img 
+                      src="/img/usuario.png"
+                      class="rounded-circle"
+                      height="25"
+                      alt="Black and White Portrait of a Man"
+                      loading="lazy"
+                    />
+                  </a>
+                  <ul
+                    class="dropdown-menu dropdown-menu-end"
+                    aria-labelledby="navbarDropdownMenuAvatar"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="#">Mi perfil</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Ajustes</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Salir</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Right elements -->
+            </div>
+            <!-- Container wrapper -->
+          </nav>
+        <!-- Navbar -->
+        <br>
+        <!-- Jumbotron -->
+        <div class="p-5 text-center bg-light">
+          <h1 class="mb-3">Gracias por preferirnos.</h1>
+          <h4 class="mb-3">Estos son algunos de los tipos de maleta que manejamos.</h4>
+          
+        </div>
+        <!-- Jumbotron -->
+            
+      
+    <!-- Grilla -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md">
+          
+        </div>
+        <div class="col-md">
+          
+        </div>
+        <div class="col-md">
+         
+        </div>
+        <div class="col-md">
+          
+        </div>
+      </div>
+    </div>
+    <!-- Grilla -->
+    <div class="container">
+      <div class="row">
+    
+        <!-- First column -->
+        <div class="col-md">
+          <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="/img/maletamano.png" class="img-fluid" />
+              <a href="#!">
+                <div class="mask" style="
+                background: linear-gradient(
+                  45deg,
+                  hsla(24, 85%, 52%, 0.5),
+                  hsla(61, 88%, 45%, 0.5) 100%);"></div>
+              </a>
+            </div>
+
+            
+            <div class="card-body">
+              <h5 class="card-title">Maleta de mano</h5>
+              <p class="card-text">Una maleta especial para viajes cortos, adaptada para las necesidades básicas.</p>
+              <a href="#!" class="btn btn-primary">Ver</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md">
+    
+          <!-- Card -->
+          <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="/img/maletaviaje.png" class="img-fluid"  />
+              <a href="#!">
+                <div class="mask" style="
+                background: linear-gradient(
+                  45deg,
+                  hsla(24, 85%, 52%, 0.5),
+                  hsla(61, 88%, 45%, 0.5) 100%);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Maleta Grande</h5>
+              <p class="card-text">Una maleta especial para viajes en pareja, adaptada para soportar gran peso.</p>
+              <a href="#!" class="btn btn-primary">Ver</a>
+            </div>
+          </div>
+          <!-- Card -->
+    
+        </div>
+        <!-- First column -->
+        
+        <!-- Second column -->
+        <div class="col-md">
+    
+          <!-- Card -->
+          <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="/img/maletin.png" class="img-fluid"  />
+              <a href="#!">
+                <div class="mask" style="
+                background: linear-gradient(
+                  45deg,
+                  hsla(24, 85%, 52%, 0.5),
+                  hsla(61, 88%, 45%, 0.5) 100%);"></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Maletín</h5>
+              <p class="card-text">Pequeño maletín especial para el uso diario, el porte de documentos.</p>
+              <a href="#!" class="btn btn-primary">Ver</a>
+            </div>
+          </div>
+          <!-- Card -->
+    
+        </div>
+        <!-- Second column -->
+    
+        <!-- Third column -->
+        <div class="col-md">
+    
+          <!-- Card -->
+          <div class="card">
+            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+              <img src="/img/maletagrande.png"  class="img-fluid"   />
+              <a href="#!">
+                <div class="mask" style="
+                background: linear-gradient(
+                  45deg,
+                  hsla(24, 85%, 52%, 0.5),
+                  hsla(61, 88%, 45%, 0.5) 100%);"></div>              
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Maleta viaje</h5>
+              <p class="card-text">Maleta especializada en viajes muy largos y para varias personas.</p>
+              <a href="#!" class="btn btn-primary ">Ver</a>
+            </div>
+          </div>
+          <!-- Card -->
+    
+        </div>
+        <!-- Third column -->
+    
+      </div>
+    </div>
+    
+   
+
+
+
+    <!-- Footer -->
+      <footer class="text-center text-lg-start bg-dark text-muted">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+            <span>Siguenos en nuestras redes sociales:</span>
+          </div>
+          <!-- Left -->
+
+          <!-- Right -->
+          <div>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-suitcase-rolling me-3"></i>BagShop
+                </h6>
+                <p>
+                  Desarrollado por: EDWIN GARZÓN <br><br> Para nosotros es un honor brindarte el mejor servicio y calidad al mejor precio del mercado.
+                  Cualquier duda o inquietud que tengas, no dudes en contactarnos.
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Maletas
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">De viaje</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">De mano</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Maleteros</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Mochilas</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+           
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+                <p><i class="fas fa-home me-3"></i> Bogotá, Bogotá D.C, CO</p>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  correo@gmail.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i> + 57 313 567 8885</p>
+                <p><i class="fas fa-print me-3"></i> + 57 320 567 8185</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2023 Copyright:
+          <a class="text-reset fw-bold" href="https://mdbootstrap.com/">BagShop.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+
+
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+  </body>
+</html>
